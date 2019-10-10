@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guy Meyer - Portfolio</title>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $("#serpuiExplanation").load("serpuiExplanation.html");
+            $("#serpuiScreenshotCarousel").load("serpuiScreenshotCarousel.html");
+            $("#serpuiCodeSamplesCarousel").load("serpuiCodeSamplesCarousel.html");
+
+    });
+    </script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    .sample_pics {
+        margin: 3em 0;
+    }
+
+    .external_links {
+        width: 100%;
+        object-fit: cover;
+    }
+    </style>
+</head>
+
+<body style="margin: 4em 0">
+    <!-- bootstrap container -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="col">
+                    <h1>Guy Meyer</h1>
+                    <h6>Why not now?</h6>
+                </div>
+                <div class="col">
+                    <h2>links</h2>
+                </div>
+            </div>
+            <div class="col">
+                <img class="float-right" src="./res/profile.jpg" width="50%">
+            </div>
+        </div>
+        <div class="flex-row" id="serpui">
+            <div class="d-flex">
+                <h2>SerpUI</h2>
+            </div>
+            <div class="d-flex">
+                <p>A web-based search engine for people with visual impairment. SerpUI pulls real-time results from the <a href="https://developers.google.com/custom-search/docs/overview">Google Custom Search Engine API</a> and presents them with a new interface better suited for people with visual impairment. To add functionality you can connect a <a href="https://www.nintendo.com/switch/choose-your-joy-con-color/">Nintendo JoyCon controller</a> for interactive browsing. Our product has also been tested with young users with the hopes of making Google more accessible to everyone! The new format separates the two types of data; search results and their content. The user can discover new results by moving up and down, and learn more about each result by moving left and right. Enjoy SERPing!</p>
+            </div>
+            <div>
+                <p>This interface was a lot of fun to make! Trying to put yourself in the shoes of others with such different perpectives is challenging to begin with. But when you're asked to find the best way to help them surf the web, things get interesting :)</p>
+            </div>
+            <div class="row" style="margin: 1em 0">
+                <p>Try it out for yourself: <a href="https://serpui.cas.mcmaster.ca/home">serpui.cas.mcmaster.ca</a> (optimized for the Google Chrome Web Browser)</p>
+            </div>
+            <div id="serpuiExplanation" style="margin: 6em 0;"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Some pictures of SerpUI:</h4>
+                    <div id="serpuiScreenshotCarousel"></div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Some of my code samples from SerpUI:</h4>
+                    <div id="serpuiCodeSamplesCarousel"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

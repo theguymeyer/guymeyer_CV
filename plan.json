@@ -1,0 +1,81 @@
+{
+    "title": "Guy Meyer - Portfolio",
+    "info":
+    {
+        "email": "",
+        "": ""
+    },
+    "highlights":
+    {
+        "heading": "Highlights",
+        "achievement": "Designed and implemented SerpUI, a web-based search engine interface for the visually impaired",
+        "serpUI":
+        {
+            "heading": "SerpUI",
+            "url": "https://serpui.cas.mcmaster.ca",
+            "code_samples":
+            {
+                "image": "p1.png",
+                "image": "p2.png",
+                "image": "p3.png"
+            },
+            "publication": "TODO:link"
+        },
+        "achievement": "First place winners in the McMaster Computing and Software Capstone Competition",
+        "capstone":
+        {
+            "heading": "Robotic Billiards Partner",
+            "description": "An autonomous billiards partner than captures the state of the table with a camera, and analyzes the state of the table for the best shot. It then moves to that coordinate and tries to sink a shot.",
+            "code_samples": "TODO:github_link",
+            "gallery":
+            {
+                "link": "TODO:youtube_link",
+                "image": "p4.png",
+                "video": "v1.mp4"
+            },
+            "contribution": "Designed and built the mechanical system which allows the robot to physically perform the shot. We did everything from CAD down to the nuts and bolts, all the way to machining the parts, integrating pneumatics, electrical wiring, and 3D printing. The problem is mechanically tricky since the robot must hit the balls with power and then quickly move out the way, all in a stable and repeatable manner.",
+
+        },
+        "involvement": "Weekly events coordinator for McMaster Life in Computing and Software (LiCS)",
+        "lics":
+        {
+            "heading": "Life in Computing and Software",
+            "description": "A student-run initiative to improve departmental life on campus. We organize weekly events and activities for students around our department to meet and connect! Biggest hits are the CoffeHouse Meetup, Boardgame Night, and Seminars",
+            "gallery":
+            {
+                "image": "picture with mike showing pacemaker.png",
+                "image": "p.png",
+                "video": "v.mp4"
+            }
+        },
+        "involvement": "Mentoring Final Year Capstone Teams",
+        "event": "Human Guide Day",
+        "involvement": "Intramurals during every year playing basketball, frisbee, innertube waterpolo, and soccer."
+    },
+    "yr6":
+    {
+        "event": "Visiting the YRDSB and W. Ross",
+
+    },
+    "yr5":
+    {
+        "heading": "Grad School 1"
+    },
+    "Undergrad":
+    {
+        "heading": "Fourth Year"
+    },
+    "yr3":
+    {
+        "heading": "Third Year",
+        "work": "Navhouse Corporation"
+    },
+    "yr2":
+    {
+        "heading": "Second Year"
+    },
+    "yr1":
+    {
+        "heading": "First Year"
+    }
+}
