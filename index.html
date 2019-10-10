@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script>
         $(function(){
+            $("#bio").load("bio.html");
             $("#serpuiExplanation").load("serpuiExplanation.html");
             $("#serpuiScreenshotCarousel").load("serpuiScreenshotCarousel.html");
             $("#serpuiCodeSamplesCarousel").load("serpuiCodeSamplesCarousel.html");
@@ -37,41 +38,7 @@
     <!-- bootstrap container -->
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="flex-col">
-                    <div class="row">
-                        <h1>Guy Meyer</h1>
-                        <div class="align-bottom" style="margin: 1%;">B.Eng</div>
-                    </div>
-                    <h6>A passion for innovative engineering solutions</h6>
-                </div>
-                <div class="container">
-                    <div class="row links">
-                        <div class="col-sm-1">
-                            <i class="fas fa-envelope-square fa-lg"></i>
-                        </div>
-                        <div class="col-sm-10">
-                            <p style="margin: 0;">guymeyer1995 at gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="row links">
-                        <div class="col-sm-1">
-                            <i class="fas fa-link fa-lg"></i>
-                        </div>
-                        <div class="col-sm-10">
-                            <a href="https://www.linkedin.com/in/meyerguy/">https://www.linkedin.com/in/meyerguy/</a>
-                        </div>
-                    </div>
-                    <div class="row links">
-                        <div class="col-sm-1">
-                            <i class="fab fa-linkedin-in fa-lg" style="margin: 0;"></i>
-                        </div>
-                        <div class=" col-sm-10">
-                            <a href="https://www.cas.mcmaster.ca/~meyerg/">https://www.cas.mcmaster.ca/~meyerg/</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="bio"></div>
             <div class="col">
                 <img class="float-right" src="./res/profile.jpg" width="50%">
             </div>
