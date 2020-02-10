@@ -6,16 +6,16 @@ $.ajaxSetup({
 // import all sections
 $(document).ready(function() {
     // Load sections
-    $("#bio").load("bio.html");
-    $("#serpuiExplanation").load("serpuiExplanation.html");
-    $("#serpuiScreenshotCarousel").load("serpuiScreenshotCarousel.html");
-    $("#serpuiCodeSamplesCarousel").load("serpuiCodeSamplesCarousel.html");
-    $("#christmasDoorExplanation").load("christmasDoorExplanation.html");
-    $("#pacemakerExplanation").load("pacemakerExplanation.html");
-    $("#pacemakerControlsCarousel").load("pacemakerControlsCarousel.html");
-    $("#capstoneCadCarousel").load("capstoneCadCarousel.html");
-    $("#capstoneControlsCarousel").load("capstoneControlsCarousel.html");
-    $("#wheelbarrowContent").load("wheelbarrowContent.html");
+    $("#bio").load("views/bio.html");
+    $("#serpuiExplanation").load("views/serpuiExplanation.html");
+    $("#serpuiScreenshotCarousel").load("views/serpuiScreenshotCarousel.html");
+    $("#serpuiCodeSamplesCarousel").load("views/serpuiCodeSamplesCarousel.html");
+    $("#christmasDoorExplanation").load("views/christmasDoorExplanation.html");
+    $("#pacemakerExplanation").load("views/pacemakerExplanation.html");
+    $("#pacemakerControlsCarousel").load("views/pacemakerControlsCarousel.html");
+    $("#capstoneCadCarousel").load("views/capstoneCadCarousel.html");
+    $("#capstoneControlsCarousel").load("views/capstoneControlsCarousel.html");
+    $("#wheelbarrowContent").load("views/wheelbarrowContent.html");
 });
 $('.carousel').carousel({
     interval: false
