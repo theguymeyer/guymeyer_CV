@@ -14,6 +14,10 @@
 </head>
 
 <body style="margin: 4em 0">
+
+    <!-- Imports custom functions (scrolling menu) -->
+    <script type="text/javascript" src="scripts/index_fucntions.js"></script>
+
     <!-- bootstrap container -->
     <div class="container">
         <div class="row">
@@ -24,7 +28,7 @@
         </div>
         <div class="row">
             <div class="col-md-3 col-xl-3">
-                <div class="sectionSelector">
+                <div id="sectionSelector">
                     <h5>Jump to...</h5>
                     <button type="button" class="btn btn-outline-primary linkBtn" onclick="goTo('bio')">Bio</button>
                     <button type="button" class="btn btn-outline-primary linkBtn" onclick="goTo('serpui')">SerpUI</button>
@@ -59,10 +63,10 @@
                         </div>
                     </div>
                     <div class="row" style="text-align: center; margin: 2%;">
-                        <div class="col-md-12">
+                        <!-- <div class="col-md-12">    // TODO make youtube video live when attaining IP for SerpUI
                             <h4>Product Demo:</h4>
                             <iframe src="https://www.youtube.com/embed/fjQ-aj7WDSI?start=160" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        </div> -->
                     </div>
                     <div id="serpuiExplanation" style="margin: 6em 0;"></div>
                 </div>

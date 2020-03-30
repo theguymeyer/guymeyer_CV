@@ -16,24 +16,38 @@ $(document).ready(function() {
     $("#capstoneCadCarousel").load("views/capstoneCadCarousel.html");
     $("#capstoneControlsCarousel").load("views/capstoneControlsCarousel.html");
     $("#wheelbarrowContent").load("views/wheelbarrowContent.html");
+
+    // lock side nav options with scroll
+    // $(window).scroll(function() {
+    //     if ($(window).scrollTop() >= $("#bio").height() * 1.05) {
+    //         $("#sectionSelector").css("position", "fixed");
+    //         $("#sectionSelector").css("top", "8%");
+    //         $("button").css("display", "block");
+    //     } else {
+    //         $("#sectionSelector").css("position", "static");
+    //         $("#sectionSelector").css("top", "8%");
+    //         $("button").css("display", "block");
+    //     }
+    // })
+
 });
 $('.carousel').carousel({
     interval: false
 });
 
-
-// lock side nav options with scroll
-$(window).scroll(function() {
-    if ($(window).scrollTop() >= $("#bio").height() * 1.05) {
-        $(".sectionSelector").css("position", "fixed");
-        $(".sectionSelector").css("top", "8%");
-        $("button").css("display", "block");
-    } else {
-        $(".sectionSelector").css("position", "static");
-        $(".sectionSelector").css("top", "8%");
-        $("button").css("display", "block");
-    }
-})
+// $(window).scroll(function() {
+//     if ($(window).scrollTop() >= $("#bio").height() * 1.05) {
+//         console.log("FIXED");
+//         $("#sectionSelector").css("position", "fixed");
+//         $("#sectionSelector").css("top", "8%");
+//         $("button").css("display", "block");
+//     } else {
+//         console.log("STATIC");
+//         $("#sectionSelector").css("position", "static");
+//         $("#sectionSelector").css("top", "8%");
+//         $("button").css("display", "block");
+//     }
+// })
 
 // nav options functions
 function goTo(elemID) {
